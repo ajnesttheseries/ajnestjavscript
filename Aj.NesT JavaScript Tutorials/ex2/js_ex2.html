@@ -1,0 +1,36 @@
+<!-- JavaScript by Aj.NesT the Series -->
+<!-- Ex2: Insert JavaScript -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Ex2</title>
+    <!-- Ex2.1: JavaScript in <head> -->
+    <script>
+      function myFunctionEx2_1(){
+        document.getElementById("ex2-1").innerHTML = "[Head] Aj.NesT the Series 👨🏻‍💻.";
+      }
+    </script>
+  </head>
+  <body>
+    <h2>JavaScript Ex2: Insert JavaScript</h2>
+    <!-- Ex2.1: html-1 -->
+    <p id="ex2-1">What is your name?</p>
+    <button type="button" onclick="myFunctionEx2_1()">Answer 1</button>
+
+    <!-- Ex2.2: html-2 -->
+    <p id="ex2-2">What are you doing?</p>
+    <button type="button" onclick="myFunctionEx2_2()">Answer 2</button>
+    <!-- Ex2.2: JavaScript in <body> -->
+    <script>
+      function myFunctionEx2_2() {
+        document.getElementById("ex2-2").innerHTML = "[Body] I'm studying JavaScript Programming 💻.";
+      }
+    </script>  
+
+    <!-- Ex2.3: html-3 -->
+    <p id="ex2-3">How are you feeling?</p>
+    <button type="button" onclick="myFunctionEx2_3()">Answer 3</button> 
+    <!-- Ex2.3: JavaScript in an External File -->  
+    <script src="/ex2/js_ex2_3.js"></script>   
+  </body>
+</html>
