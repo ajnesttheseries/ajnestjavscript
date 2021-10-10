@@ -1,0 +1,51 @@
+<!-- JavaScript by Aj.NesT the Series -->
+<!-- Ex10: JavaScript Functions -->
+<!DOCTYPE html>
+  <head>
+    <title>JavaScript Ex10</title>
+  </head>
+    <h2>JavaScript Ex10: JavaScript Functions</h2>
+    <p><b>Ex10.1 A Simple Function</b></p>
+    <p id="ex10-1"></p>  
+    <button onclick="myHello()">Click Hello</button>
+    
+    <p><b>Ex10.2 Functions with an Argument</b></p>    
+    <p id="ex10-2"></p>  
+    <button onclick="myWelcome('Aj.NesT','Programmer')">Click Welcome</button>
+
+    <p><b>Ex10.3 Functions with an Argument by Text</b></p>
+    <form> 
+        <input type="button" onclick="myText('Aj.NesT the Series')" value="What's your name?"> 
+        <input type="button" onclick="myText('I\'m studying JavaScript Programming')" value="What are you doing?"> 
+    </form> 
+    <p id="ex10-3"></p> 
+
+    <p><b>Ex10.4 Functions that returns a Area Value</b></p>    
+    <p>Area of a Rectangle</p>
+    <p id="ex10-4"></p>  
+
+    <p><b>Ex10.5 Functions that returns a Temperature Value</b></p>    
+    <p>Fahrenheit to Celsius</p>
+    <p id="ex10-5"></p>  
+
+    <p><b>Ex10.6 Input & Output and regArea Functions</b></p>    
+    <p>Area of a Rectangle</p>
+    <input type="text" id="input1" placeholder="width" onkeyup="regArea()" />
+    <input type="text" id="input2" placeholder="length" onkeyup="regArea()" />
+    <br />
+    <div style="padding-top:10px">
+        Area Result:
+        <input type="text" id="result" />
+    </div>
+
+    <p><b>Ex10.7 Input & Output and toCelsius Functions</b></p>    
+    <p>Fahrenheit to Celsius</p>
+    <input type="text" id="fah_value" placeholder="fahrenheit" onkeyup="toCelsius()" />
+    <br />
+    <div style="padding-top:10px">
+        Temp Result:
+        <input type="text" id="cel_result" />
+    </div>
+    <script src="/ex10/js_ex10.js"></script>     
+  </body>
+</html>

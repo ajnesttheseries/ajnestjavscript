@@ -1,0 +1,92 @@
+<!-- JavaScript by Aj.NesT the Series -->
+<!-- Ex12: JavaScript Maths -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Ex12</title>
+  </head>
+  <body>
+    <h2>JavaScript Ex12: JavaScript Maths</h2>
+    <p><b>Ex12.1 Math.PI and Math.pow()</b></p>
+    <p id="ex12-1"></p>  
+    <input type="text" id="input" placeholder="radius" onkeyup="circleArea()">
+    <br>
+    <div style="padding-top:10px">
+        Circle Area:
+        <input type="text" id="result">
+    </div>
+
+    <hr>
+
+    <p><b>Ex12.2 Math Sqrt, Round, Ceil, and Floor</b></p>
+    <!-- Enter Number Input  -->
+    <input type="text" id="number_input" placeholder="number" onkeyup="mathFunctions()">
+    <br>
+    <!-- (1) Square Root  -->
+    <div style="padding-top:10px">
+        Math.sqrt():
+        <input type="text" id="sqrt_output">
+    </div>
+    <!-- (2) Round -->
+    <div style="padding-top:10px">
+        Math.round():
+        <input type="text" id="round_output">
+    </div>
+    <!-- (3) Ceil -->    
+    <div style="padding-top:10px">
+        Math.ceil():
+        <input type="text" id="ceil_output">
+    </div>
+    <!-- (4) Floor -->
+    <div style="padding-top:10px">
+        Math.floor():
+        <input type="text" id="floor_output">
+    </div>
+
+    <hr>
+
+    <p><b>Ex12.3 Math Abs, Sin, Cos, Min, and Max</b></p>
+    <p><b>(1) Math.abs()</b></p>
+    <p id="ex12-3-1"></p>  
+    <p><b>(2) Math.sin(radians) </b></p>
+    <p id="ex12-3-2"></p>  
+    <p><b>(3) Math.cos(radians) </b></p>
+    <p id="ex12-3-3"></p>  
+    <p><b>(4) Math.min() </b></p>
+    <p id="ex12-3-4"></p>  
+    <p><b>(5) Math.max() </b></p>
+    <p id="ex12-3-5"></p>  
+
+    <hr>
+
+    <p><b>Ex12.4 Math Random</b></p>
+    <!-- (1) Random 0 (included) - 1 (excluded) -->
+    <p><b>(1) Random 0 (included) - 1 (excluded)</b></p>
+    <button type="button" onclick="getRandom1()">Random 0 to 1</button> 
+    <p id="ex12-4-1"></p> 
+
+    <!-- (2) Random 0 - 100 (both included) -->
+    <p><b>(2) Random 0 - 100 (both included)</b></p>
+    <button type="button" onclick="getRandom2()">Both Random 0 to 100</button> 
+    <p id="ex12-4-2"></p>  
+
+    <!-- (3) Random 1 - 100 (both included) -->
+    <p><b>(3) Random 1 - 100 (both included)</b></p>
+    <button type="button" onclick="getRandom3()">Both Random 1 to 100</button> 
+    <p id="ex12-4-3"></p>  
+
+    <!-- (4) Random x (included) - y (excluded) -->
+    <p><b>(4) Random x (included) - y (excluded)</b></p>
+    <button type="button" onclick="document.getElementById('ex12-4-4').innerHTML = getRandom4(30,100)">Random x to y</button> 
+    <p id="ex12-4-4"></p>  
+
+    <!-- (5) Random x - y (both included) -->
+    <p><b>(5) Random x - y (both included)</b></p>
+    <button type="button" onclick="document.getElementById('ex12-4-5').innerHTML = getRandom5(30,100)">Both Random x to y</button> 
+    <p id="ex12-4-5"></p>  
+
+    <hr>
+    
+    <script src="/ex12/js_ex12.js"></script> 
+  </body>
+</html>
